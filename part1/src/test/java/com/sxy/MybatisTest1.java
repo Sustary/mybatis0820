@@ -36,6 +36,7 @@ public class MybatisTest1 {
     @Test
     public void test1() {
         // Here is some test code in master branch.
+        // Hers is some code in develop branch.
     }
 
     @After
