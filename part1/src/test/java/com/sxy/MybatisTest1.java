@@ -8,6 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.net.ssl.SSLServerSocket;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -37,6 +38,7 @@ public class MybatisTest1 {
     public void test1() {
         // Here is some test code in master branch.
         // Hers is some code in develop branch.
+        // Test rebase develop onto master
     }
 
     @After
