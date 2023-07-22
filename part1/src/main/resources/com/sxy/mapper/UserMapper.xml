@@ -59,12 +59,14 @@
         <include refid="baseSelect"></include>
         from user
     </select>
+
     <select id="selectById" resultType="com.sxy.pojo.User">
         select
         <include refid="baseSelect"></include>
         from user
         where id = #{id}
     </select>
+
     <select id="selectByUser" resultType="com.sxy.pojo.User">
         select
         <include refid="baseSelect"></include>
@@ -103,6 +105,7 @@
             </if>
         </where>
     </select>
+
     <select id="selectByIds" resultType="com.sxy.pojo.User">
         select
         <include refid="baseSelect"></include>
